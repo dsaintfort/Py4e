@@ -1,5 +1,4 @@
-#Asks a user to enter the hours they worked and their rate of pay.
-#If a user does not enter two numbers, it continues. It ends once two numbers of been entered.
+#Write a program to prompt the user for hours and rate per hour using input to compute gross pay.
 
 while True:
 	try:
