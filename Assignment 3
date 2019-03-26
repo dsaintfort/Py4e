@@ -1,4 +1,4 @@
-#Asks for the user to enter the hours they worked and their rate of pay.
+#Asks a user to enter the hours they worked and their rate of pay.
 #If the user does not enter two numbers, it continues. It ends once two numbers of been entered.
 
 while True:
