@@ -1,0 +1,16 @@
+#Asks for the user to enter the hours they worked and their rate of pay.
+#If the user does not enter two numbers, it continues. It ends once two numbers of been entered.
+
+while True:
+	try:
+		x=input("How many hours did you work? " )
+		if x == "done": break
+		y=input("What is your rate of pay? " )
+		if y == "done": break
+		x=float(x)
+		y=float(y)
+		gp=float(x)*float(y)
+		print("Pay:", gp)
+		break
+	except:
+		print("Please enter two numbers.")
