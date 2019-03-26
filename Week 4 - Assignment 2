@@ -1,0 +1,8 @@
+#If the user inputs a number they receive a try again message. The user must input a letter as their name.
+
+while True:
+    x=input("What is your first name? ")
+    if x.isalpha():
+        break
+    print("Try again.")
+print("Hello",x)
