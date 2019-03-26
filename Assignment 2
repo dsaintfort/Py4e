@@ -1,4 +1,4 @@
-#If a user inputs a number they receive a try again message. A user must input at least one letter as their name.
+#Write a program that uses input to prompt a user for their name and then welcomes them.
 
 while True:
     x=input("What is your first name? ")
