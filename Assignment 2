@@ -1,4 +1,4 @@
-#If a user inputs a number they receive a try again message. The user must input a letter as their name.
+#If a user inputs a number they receive a try again message. A user must input at least one letter as their name.
 
 while True:
     x=input("What is your first name? ")
