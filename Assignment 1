@@ -1,3 +1,3 @@
-#Simple print statement.
+#Prints a simple "Hello World" statement.
 
 print("Hello World")
