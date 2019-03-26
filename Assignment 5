@@ -1,0 +1,26 @@
+#Write a program to prompt for a score between 0.0 and 1.0. 
+#If the score is out of range, print an error. If the score is between 0.0 and 1.0. Use a standard grading table.
+
+while True:
+    x=input("What was your score?")
+    try:
+        z=float(x)
+        if x == "done": break
+        if z>=.9:
+            print("A")
+            break
+        elif z>=.8:
+            print("B")
+            break
+        elif z>=.7:
+            print("C")
+            break
+        elif z>=.6:
+            print("D")
+            break
+        elif z<.6:
+            print("F")
+            break
+    except:
+        print("Please enter a number.")
+        continue
