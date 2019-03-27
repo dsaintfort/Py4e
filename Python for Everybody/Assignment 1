@@ -1,3 +1,3 @@
-#Write a program that uses a print statement to say "Hello World".
+#Write a program that uses a print statement to say "Hello World" to a user
 
 print("Hello World")
