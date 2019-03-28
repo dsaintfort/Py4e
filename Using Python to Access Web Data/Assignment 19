@@ -1,0 +1,29 @@
+ #The program will prompt for a URL, read the XML data from that URL using urllib and
+ #then parse and extract the comment counts from the XML data, compute the sum of the numbers in the file.
+
+import urllib.request, urllib.parse, urllib.error
+import xml.etree.ElementTree as ET
+import ssl
+import re
+
+# Ignore SSL certificate errors
+ctx = ssl.create_default_context()
+ctx.check_hostname = False
+ctx.verify_mode = ssl.CERT_NONE
+
+x=list()
+while True:
+    address = input('Enter location: ')
+    if len(address) < 1: break
+    url=address
+    print('Retrieving', url)
+    uh = urllib.request.urlopen(url, context=ctx).read()
+    print('Retrieved', len(uh), 'characters')
+    tree = ET.fromstring(uh.decode())
+    lst=tree.findall('.//count')
+    print(len(lst))
+    for item in lst:
+        y=item.text
+        x.append(y)
+    z=list(map(int,x))
+    print(sum(z))
