@@ -1,5 +1,7 @@
-#Write a program to prompt for a score between 0.0 and 1.0. 
-#If the score is out of range, print an error. If the score is between 0.0 and 1.0. Use a standard grading table.
+#Write a program to prompt for a score between 0.0 and 1.0
+#If the score is out of range, print an error. If the score is between 0.0 and 1.0. Use a standard grading table
+#If the user does not enter a number, the program will request that they do and loop back to the beginning
+#If the user types done, the program will end
 
 while True:
     x=input("What was your score?")
