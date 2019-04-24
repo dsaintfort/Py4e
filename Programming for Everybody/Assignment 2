@@ -1,5 +1,5 @@
 #Write a program that uses input to prompt a user for their name and then welcomes them
-#If the user does not enter letters, then it prompts the user to try again and persists until the user enters a letter
+#If the user does not enter letters, then it prompts the user to try again and persists until the user enters a letter 
 
 while True:
     x=input("What is your first name? ")
