@@ -1,4 +1,6 @@
 #Write a program to prompt a user for hours worked and rate per hour using input to compute gross pay
+#If the user types done at any point, the program ends
+#If the user does not input two numbers, the program will request that they do
 
 while True:
 	try:
